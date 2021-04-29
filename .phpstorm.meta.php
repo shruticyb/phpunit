@@ -39,7 +39,7 @@ namespace PHPSTORM_META {
     override(
         \PHPUnit\Framework\TestCase::getMockForAbstractClass(0),
         map([
-            '@&\PHPUnit\Framework\MockObject\MockObject',
+            '@&\PHPUnit\Framework\MockObject\MockObject'
         ])
     );
 }
